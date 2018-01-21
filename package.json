@@ -1,0 +1,12 @@
+{
+  "name": "hubot-scheduler",
+  "version": "0.0.1",
+  "description": "Extension of hubot to execute scheduled task.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-holidays": "^1.2.0",
+    "lodash": "^4.17.4",
+    "node-schedule": "^1.3.0"
+  }
+}
