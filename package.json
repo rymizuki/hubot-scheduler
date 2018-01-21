@@ -5,10 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "conventional-changelog-cli": "^1.3.5",
     "date-holidays": "^1.2.0",
     "lodash": "^4.17.4",
-    "mversion": "^1.10.1",
     "node-schedule": "^1.3.0"
   },
   "repository": {
@@ -20,7 +18,10 @@
     "url": "https://github.com/rymizuki/hubot-scheduler/issues"
   },
   "homepage": "https://github.com/rymizuki/hubot-scheduler#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "mversion": "^1.10.1",
+    "conventional-changelog-cli": "^1.3.5"
+  },
   "scripts": {
     "bump": "mversion $1 -m '%s'",
     "test": "echo \"Error: no test specified\" && exit 1"
