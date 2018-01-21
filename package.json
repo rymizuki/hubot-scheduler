@@ -24,6 +24,7 @@
   },
   "scripts": {
     "bump": "mversion $1 -m '%s'",
+    "publish": "publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
