@@ -1,14 +1,28 @@
 {
-  "name": "hubot-scheduler",
-  "version": "0.0.1",
+  "name": "@mizuki_r/hubot-scheduler",
+  "version": "0.0.0",
   "description": "Extension of hubot to execute scheduled task.",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "conventional-changelog-cli": "^1.3.5",
     "date-holidays": "^1.2.0",
     "lodash": "^4.17.4",
+    "mversion": "^1.10.1",
     "node-schedule": "^1.3.0"
   },
-  "repository": "git@github.com:rymizuki/hubot-scheduler.git",
-  "author": "mizuki_r <ry.mizuki@gmail.com>"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rymizuki/hubot-scheduler.git"
+  },
+  "author": "mizuki_r <ry.mizuki@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/rymizuki/hubot-scheduler/issues"
+  },
+  "homepage": "https://github.com/rymizuki/hubot-scheduler#readme",
+  "devDependencies": {},
+  "scripts": {
+    "bump": "mversion $1 -m '%s'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
