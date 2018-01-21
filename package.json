@@ -1,6 +1,6 @@
 {
   "name": "@mizuki_r/hubot-scheduler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extension of hubot to execute scheduled task.",
   "main": "index.js",
   "license": "MIT",
