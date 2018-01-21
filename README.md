@@ -1,6 +1,8 @@
 # hubot-scheduler
 Extension of hubot to execute scheduled task.
 
+[![npm version](https://badge.fury.io/js/%40mizuki_r%2Fhubot-scheduler.svg)](https://badge.fury.io/js/%40mizuki_r%2Fhubot-scheduler)
+
 suppuorted
 * [node-schedule](https://www.npmjs.com/package/node-schedule)
 * [date-holidays](https://www.npmjs.com/package/date-holidays)
