@@ -47,6 +47,6 @@ module.exports = class Scheduler {
     return rule
   }
   nowIsHoliday () {
-    return new Holidays().isHoliday(new Date())
+    return !!new Holidays(process.env.HUBOT_SCHEDULER_LOCALE).isHoliday(new Date())
   }
 }
