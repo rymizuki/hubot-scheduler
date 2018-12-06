@@ -37,7 +37,7 @@ module.exports = class Scheduler {
       if (!/^second|minute|hour|date|month|year|dayOfWeek$/.test(key)) return
 
       const value = time[key]
-      if (typeof isPlainObject(value) && (value.min && value.max)) {
+      if (isPlainObject(value) && (value.min && value.max)) {
         rule[key] = new Range(value.min, value.max)
       } else {
         rule[key] = value
