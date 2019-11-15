@@ -47,6 +47,13 @@ module.exports = class Scheduler {
     return rule
   }
   nowIsHoliday () {
-    return !!new Holidays(process.env.HUBOT_SCHEDULER_LOCALE).isHoliday(new Date())
+    const holiday = new Holidays(process.env.HUBOT_SCHEDULER_LOCALE).isHoliday(new Date())
+    if (!holiday) {
+      return false
+    }
+
+    // public, bank, school, optional or observance
+    const ignores = !!process.env.HUBOT_SCHEDULER_IGNORE_HOLIDAY_TYPES ? process.env.HUBOT_SCHEDULER_IGNORE_HOLIDAY_TYPES.split(',') : []
+    return !ignores.includes(holiday.type)
   }
 }
