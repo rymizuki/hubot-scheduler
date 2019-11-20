@@ -1,3 +1,13 @@
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/rymizuki/hubot-scheduler/compare/v0.0.5...v0.0.6) (2019-11-20)
+
+
+### Features
+
+* **holiday:** support holiday types to ignore ([b474908](https://github.com/rymizuki/hubot-scheduler/commit/b474908))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/rymizuki/hubot-scheduler/compare/v0.0.2...v0.0.4) (2018-12-06)
 
