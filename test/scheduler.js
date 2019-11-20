@@ -27,5 +27,14 @@ describe('Scheduler', function () {
         assert.equal(scheduler.nowIsHoliday(), false)
       })
     })
+    describe('now is holiday but it is set to be ignored', function () {
+      beforeEach(function () {
+        process.env.HUBOT_SCHEDULER_IGNORE_HOLIDAY_TYPES = 'observance'
+        clock = sinon.useFakeTimers(new Date('Fri Nov 15 2019 00:00:00 +0900'))
+      })
+      it('should be false', function () {
+        assert.equal(scheduler.nowIsHoliday(), false)
+      })
+    })
   })
 })
