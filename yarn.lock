@@ -69,6 +69,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
+
 array-filter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-filter/-/array-filter-1.0.0.tgz#baf79e62e6ef4c2a4c0b831232daffec251f9d83"
@@ -85,11 +90,10 @@ array-ify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
 
-astronomia@^1.3.5:
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/astronomia/-/astronomia-1.3.8.tgz#559e80e5121cea373a854cd255252f4d69ec9eb6"
-  dependencies:
-    lodash.padstart "^4.6.1"
+astronomia@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/astronomia/-/astronomia-4.0.1.tgz#051fc1e559bb0db4a8d85c61945bfc52d8a81b9b"
+  integrity sha512-NT0M9uIII3sOZnZgtqVad5crKFdzLXQTcT+qK80zBkhFOlObhs/OEAnK0WzZuNAraWLDw62RrLhapTHBs6bcsA==
 
 async@^1.4.0:
   version "1.5.2"
@@ -125,11 +129,12 @@ builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
-caldate@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/caldate/-/caldate-1.0.0.tgz#17785dbdc0b1fc39ba9d26cc4874720bd84d5769"
+caldate@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/caldate/-/caldate-2.0.1.tgz#4df08f177e29ff35cbb232a6cf46f7ec5b961bd9"
+  integrity sha512-edJtriYPt9mYarpEHOZ7QUZWXuY55S8ZdwUVBiLOqeAUYnCI7aTM3Cw+YX60MuJWhDmSRcpfJkiRpz3quMKoGQ==
   dependencies:
-    moment-timezone "^0.5.3"
+    moment-timezone "^0.5.33"
 
 call-matcher@^1.0.0:
   version "1.0.1"
@@ -435,39 +440,46 @@ dargs@^4.0.1:
   dependencies:
     number-is-nan "^1.0.0"
 
-date-chinese@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/date-chinese/-/date-chinese-1.0.3.tgz#7f89292ed33e5e05b9ee48e3545c5e8b67773ea2"
-  dependencies:
-    astronomia "^1.3.5"
+date-bengali-revised@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/date-bengali-revised/-/date-bengali-revised-2.0.1.tgz#29771db7f471b5522b0a832e38f38aba86d4cd51"
+  integrity sha512-7D9FceOSpRy1MpLzxs0rMlTaUju9LNnIz6A2Hag3/+nB7RKdVKzuQrO7mchbCqFErLoTM+L5Ja/M03psWqGqGA==
 
-date-easter@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/date-easter/-/date-easter-0.2.2.tgz#2e85dddc7dafb8b48495f9c812346d8661694c37"
-
-date-holidays-parser@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/date-holidays-parser/-/date-holidays-parser-1.2.0.tgz#857399f92c03421c9f7e9c9fdf0741b74bd9ddd0"
+date-chinese@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/date-chinese/-/date-chinese-2.1.3.tgz#60d1ffb3631c3980f420873c4888b3380bc65d84"
+  integrity sha512-g1YSDAY01sBLu5NfjpnhXGZu9xoC1xtEKHlCHQNYUIivz85Iea7WBzGPKUIBPfyejZ6x2YA64HSbTYjmzq2Yew==
   dependencies:
-    astronomia "^1.3.5"
-    caldate "^1.0.0"
-    date-chinese "^1.0.2"
-    date-easter "^0.2.2"
-    lodash.get "^4.4.2"
-    lodash.merge "^4.6.0"
-    lodash.omit "^4.5.0"
-    lodash.set "^4.3.2"
-    moment-timezone "^0.5.13"
+    astronomia "^4.0.1"
 
-date-holidays@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/date-holidays/-/date-holidays-1.2.0.tgz#7b58f9a9b32bdb9a5727f33133ff6a5f7d0809b6"
+date-easter@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/date-easter/-/date-easter-1.0.1.tgz#9c5339f13f13b976d99171ef78d608b9227d272d"
+  integrity sha512-5uAPmiO5tlztgaJrAy8eQCbsVrvYap12JGQEULi7HtLFRML65Jrop74ylHsA6OrqzcEyd6b9WQRIG/kvNzqC8g==
+
+date-holidays-parser@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/date-holidays-parser/-/date-holidays-parser-3.2.2.tgz#16b887cc3d7eada40781f8a62ac769a355d8ac1a"
+  integrity sha512-b2wG9vGvNK16WXm7LNbD2UnPS1BGYqDJQVIfgClpMcG31qXtjAibc2zSR1ceiuHDx9XY9jBZO4pKogWUw7MZYg==
   dependencies:
-    date-holidays-parser "^1.2.0"
-    js-yaml "^3.10.0"
+    astronomia "^4.0.1"
+    caldate "^2.0.1"
+    date-bengali-revised "^2.0.1"
+    date-chinese "^2.1.3"
+    date-easter "^1.0.1"
+    deepmerge "^4.2.2"
+    moment-timezone "^0.5.33"
+
+date-holidays@^3.8.3:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/date-holidays/-/date-holidays-3.8.3.tgz#8253c3137b1b9dd411f28b3a4bb12d98c3001e69"
+  integrity sha512-vVKl21SIki5VM6tQO7arPYXXKz1pC9j9y5gKV3RXjTAmrWFpXecSBUapexv3ryMVhGi7TVKZO5NJLbiSFgRKfA==
+  dependencies:
+    date-holidays-parser "^3.2.2"
+    js-yaml "^4.1.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
-    prepin "^1.0.1"
+    prepin "^1.0.3"
 
 dateformat@^1.0.11, dateformat@^1.0.12:
   version "1.0.12"
@@ -501,6 +513,11 @@ deep-extend@~0.4.0:
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
+
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
 
 defaults@^1.0.0:
   version "1.0.3"
@@ -1065,12 +1082,19 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-js-yaml@^3.1.0, js-yaml@^3.10.0:
+js-yaml@^3.1.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+js-yaml@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
+  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
 
 json-stringify-safe@^5.0.1:
   version "5.0.1"
@@ -1129,25 +1153,13 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
-lodash.merge@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
-
 lodash.omit@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
 
-lodash.padstart@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.padstart/-/lodash.padstart-4.6.1.tgz#d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b"
-
 lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-
-lodash.set@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
 
 lodash.template@^4.0.2:
   version "4.4.0"
@@ -1307,9 +1319,16 @@ modify-values@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.0.tgz#e2b6cdeb9ce19f99317a53722f3dbf5df5eaaab2"
 
-moment-timezone@^0.5.0, moment-timezone@^0.5.13, moment-timezone@^0.5.3:
+moment-timezone@^0.5.0:
   version "0.5.14"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.14.tgz#4eb38ff9538b80108ba467a458f3ed4268ccfcb1"
+  dependencies:
+    moment ">= 2.9.0"
+
+moment-timezone@^0.5.33:
+  version "0.5.33"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.33.tgz#b252fd6bb57f341c9b59a5ab61a8e51a73bbd22c"
+  integrity sha512-PTc2vcT8K9J5/9rDEPe5czSIKgLoGsH8UNpA4qZTVw0Vd/Uz19geE9abbIOQKaAQFcnQ3v5YEXrbSc5BpshH+w==
   dependencies:
     moment ">= 2.9.0"
 
@@ -1603,9 +1622,10 @@ prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-prepin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/prepin/-/prepin-1.0.1.tgz#cd41e027fd5b4cc28ce591639bb7b14d2f4f0618"
+prepin@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/prepin/-/prepin-1.0.3.tgz#6996d34f1f8bf0de0bacf525e3037da79b7df91b"
+  integrity sha512-0XL2hreherEEvUy0fiaGEfN/ioXFV+JpImqIzQjxk6iBg4jQ2ARKqvC4+BmRD8w/pnpD+lbxvh0Ub+z7yBEjvA==
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
